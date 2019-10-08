@@ -18,7 +18,7 @@ install -m 0755 -o root -g root -t /usr/local/bin ./litecoin-0.17.1/bin/*
 mkdir ~/.litecoin
 
 # 创建目录
-mkdir /home/ltc_data
+mkdir /www/coin/ltc_data
 
 # 创建配置文件
 touch ~/.litecoin/litecoin.conf
@@ -30,7 +30,7 @@ rpcuser=rpcuserabc
 rpcpassword=www123123
 rpcallowip=127.0.0.1
 rpcport=9332
-datadir=/home/ltc_data
+datadir=/www/coin/ltc_data
 EOF
 
 # 启动LTC
